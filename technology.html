@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;700&family=Bellefair&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+        </div>
+        <div class="divider"></div>
+
+        <nav class="desktop-nav">
+            <div class="nav-item">
+                <h3>00</h3>
+                <a href="index.html" id="home">Home</a>
+            </div>
+            <div class="nav-item">
+                <h3>01</h3>
+                <a href="destination.html" id="destination">Destination</a>
+            </div>
+            <div class="nav-item">
+                <h3>02</h3>
+                <a href="crew.html" id="crew">Crew</a>
+            </div>
+            <div class="nav-item  nav-item-active">
+                <h3>03</h3>
+                <a href="technology.html" id="technology">Technology</a>
+            </div>
+        </nav>
+
+        <div class="hamburger-container">
+            <img id="hamburger" src="starter-code/assets/shared/icon-hamburger.svg" alt="mobile menu toggle button">
+        </div>
+    </header>
+
+    <section>
+        <nav id="mobileNav" class="mobile-nav hidden">
+            <div class="close-btn" id="closeBtn">
+                <img src="starter-code/assets/shared/icon-close.svg" alt="menu close button">
+            </div>
+            <div class="nav-item">
+                <h3>00</h3>
+                <a href="index.html" id="home">Home</a>
+            </div>
+            <div class="nav-item">
+                <h3>01</h3>
+                <a href="destination.html" id="destination">Destination</a>
+            </div>
+            <div class="nav-item">
+                <h3>02</h3>
+                <a href="crew.html" id="crew">Crew</a>
+            </div>
+            <div class="nav-item  nav-item-active">
+                <h3>03</h3>
+                <a href="technology.html" id="technology">Technology</a>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <div class="main technology-main" id="technologyMain">
+
+            <div class="technology-content-section">
+
+                <div class="subtitle-title subtitle technology-subtitle">
+                    <h3>04</h3>
+                    <h2>Space launch 101</h2>
+                </div>
+
+                <div class="technology-content-container">
+                    <div class="technology-toggles-container">
+                        <div class="technology-toggle-btn">
+                            <h3 id="tech1" data-technology="Launch vehicle">1</h3>
+                        </div>
+                        <div class="technology-toggle-btn">
+                            <h3 id="tech2" data-technology="Spaceport">2</h3>
+                        </div>
+                        <div class="technology-toggle-btn  technology-toggle-active">
+                            <h3 id="tech3" data-technology="Space capsule">3</h3>
+                        </div>
+                    </div>
+
+                    <div class="technology-content">
+                        <h2>The terminology...</h2>
+                        <h1 id="techName">Space capsule</h1>
+
+                        <p id="techInfo">A space capsule is an often-crewed spacecraft that uses a blunt-body
+                            reentry
+                            capsule to reenter the Earth's atmosphere without wings. Our capsule is where
+                            you'll spend your time during the flight. It includes a space gym, cinema,
+                            and plenty of other activities to keep you entertained.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="technology-image-container">
+                <img id="techImage" src="starter-code/assets/technology/image-launch-vehicle-portrait.jpg"
+                    alt="new space technology">
+            </div>
+</body>
+
+</html>

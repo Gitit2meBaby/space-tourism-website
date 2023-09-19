@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;700&family=Bellefair&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+        </div>
+        <div class="divider"></div>
+
+        <nav class="desktop-nav">
+            <div class="nav-item">
+                <h3>00</h3>
+                <a href="index.html" id="home">Home</a>
+            </div>
+            <div class="nav-item  nav-item-active">
+                <h3>01</h3>
+                <a href="destination.html" id="destination">Destination</a>
+            </div>
+            <div class="nav-item">
+                <h3>02</h3>
+                <a href="crew.html" id="crew">Crew</a>
+            </div>
+            <div class="nav-item">
+                <h3>03</h3>
+                <a href="technology.html" id="technology">Technology</a>
+            </div>
+        </nav>
+        <div class="hamburger-container">
+            <img id="hamburger" src="starter-code/assets/shared/icon-hamburger.svg" alt="mobile menu toggle button">
+        </div>
+    </header>
+
+    <section>
+        <nav id="mobileNav" class="mobile-nav hidden">
+            <div class="close-button hidden" id="closeBtn">
+                <img src="starter-code/assets/shared/icon-close.svg" alt="menu close button">
+            </div>
+            <div class="nav-item">
+                <h3>00</h3>
+                <a href="index.html" id="home">Home</a>
+            </div>
+            <div class="nav-item  nav-item-active">
+                <h3>01</h3>
+                <a href="destination.html" id="destination">Destination</a>
+            </div>
+            <div class="nav-item">
+                <h3>02</h3>
+                <a href="crew.html" id="crew">Crew</a>
+            </div>
+            <div class="nav-item">
+                <h3>03</h3>
+                <a href="technology.html" id="technology">Technology</a>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <div class="main destination-main" id="destinationMain">
+
+            <div class="image-div">
+                <div class="subtitle-title subtitle">
+                    <h3>01</h3>
+                    <h2>pick your destination</h2>
+                </div>
+                <div class="destination-image-container">
+                    <img id="destinationImage" src="" alt="planets and moons">
+                </div>
+            </div>
+
+            <div class="destination-content">
+                <div class="destination-nav">
+                    <ul>
+                        <div class="list-item active-nav-item">
+                            <li class="moon" id="moon">Moon</li>
+                        </div>
+                        <div class="list-item">
+                            <li class="mars" id="mars">Mars</li>
+                        </div>
+                        <div class="list-item">
+                            <li class="europa" id="europa">Europa</li>
+                        </div>
+                        <div class="list-item">
+                            <li class="titan" id="titan">Titan</li>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="destination-title">
+                    <h1 id="destinationTitle">mars</h1>
+                </div>
+
+                <div class="destination-info">
+                    <p id="destinationInfo">
+                        The smallest of the four Galilean moons orbiting Jupiter, Europa is a
+                        winter lover’s dream. With an icy surface, it’s perfect for a bit of
+                        ice skating, curling, hockey, or simple relaxation in your snug
+                        wintery cabin.
+                    </p>
+                </div>
+
+                <div class="stats">
+                    <div class="distance">
+                        <p>Avg. distance</p>
+                        <h3 id="distance">628 mil. km</h3>
+                    </div>
+                    <div class="travel-time">
+                        <p>Est. travel time</p>
+                        <h3 id="travelTime">3 years</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>
